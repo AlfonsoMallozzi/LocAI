@@ -1,6 +1,6 @@
 # DeepHat — "Nameless Terminal"
 
-A hacker-themed AI chat interface with full CRT television effects. The frontend is a **zero-dependency static site** (HTML + CSS + JS) deployed on **Vercel**. It connects to a self-hosted **Ollama** instance running the `deephat` model, exposed via a **Cloudflare Tunnel**.
+An AI chat interface with full CRT television effects. The frontend is a **zero-dependency static site** (HTML + CSS + JS) deployed on **Vercel**. It connects to a self-hosted **Ollama** instance running the `deephat` model, exposed via a **Cloudflare Tunnel**.
 
 > [!NOTE]
 > This guide targets **Arch Linux**. All commands, paths, and service configurations are Arch-specific.
