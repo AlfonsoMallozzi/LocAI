@@ -102,7 +102,7 @@ install_python_deps() {
     local deps=("huggingface_hub" "transformers" "torch" "sentencepiece" "protobuf" "numpy")
 
     info "Installing: ${deps[*]}"
-    python3 -m pip install --user --upgrade "${deps[@]}" || fail "Failed to install Python dependencies."
+    python3 -m pip install --upgrade "${deps[@]}" || fail "Failed to install Python dependencies."
     ok "Python dependencies installed"
 }
 
